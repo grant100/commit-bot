@@ -1,6 +1,6 @@
 import time, subprocess
 while True:
-    with open('/home/pi/.commit-bot.txt','w+') as file:
+    with open('/home/pi/code/commit-bot/.commit-bot.txt','w+') as file:
         file.write(' ' * 5)
         file.close()
     time.sleep(5)
